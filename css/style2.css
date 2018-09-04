@@ -1,0 +1,29 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+#gallery{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+#gallery .photos img{
+width: 100%;
+display: none;
+}
+
+#gallery .photos img:first-child {
+	display: block;
+}
+
+#gallery .photos p{
+	width: 80%;
+	position: absolute;
+	top: 10px;
+	left: 10%;
+	background-color: lightblue;
+}
